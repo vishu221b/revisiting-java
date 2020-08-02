@@ -22,6 +22,5 @@ public class Main {
         System.out.print("Now gimme a String input :D => ");
         String someString = inputScanner.next();
         System.out.println(String.format("User integer is %d and user string is %s.", someInteger, someString));
-
     }
 }
