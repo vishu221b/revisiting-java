@@ -1,5 +1,7 @@
 package com.java.revision.datatypes;
 
+import com.java.revision.datatypes.primitive.CharactersAndBooleans;
+import com.java.revision.datatypes.primitive.DecimalDataTypes;
 import com.java.revision.datatypes.primitive.IntegerDataTypes;
 
 /**
@@ -13,6 +15,13 @@ import com.java.revision.datatypes.primitive.IntegerDataTypes;
 public class DataTypes {
     public static void main(String[] args){
     IntegerDataTypes integerDataTypes = new IntegerDataTypes();
+    DecimalDataTypes decimalDataTypes = new DecimalDataTypes();
+    CharactersAndBooleans charactersAndBooleans = new CharactersAndBooleans();
+    System.out.println("----Integers----");
     integerDataTypes.runIntegerTypeChecks();
+    System.out.println("----Decimals----");
+    decimalDataTypes.runDecimalChecks();
+    System.out.println("----Characters and Booleans----");
+    charactersAndBooleans.runChecks();
     }
 }
