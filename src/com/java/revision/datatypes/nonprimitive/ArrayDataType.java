@@ -16,7 +16,7 @@ public class ArrayDataType {
         score[3] = 113413412;
         score[5] = 1204234;
         int count = 89137498;
-        int secondScoreArray[] = {100,200,300,400,500,600};
+        int[] secondScoreArray = {100,200,300,400,500,600};
         for (int value : score) {
             if(value == 0){
                 value = count;
