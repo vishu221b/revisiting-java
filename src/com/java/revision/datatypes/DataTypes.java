@@ -22,6 +22,6 @@ public class DataTypes {
     System.out.println("----Decimals----");
     decimalDataTypes.runDecimalChecks();
     System.out.println("----Characters and Booleans----");
-    charactersAndBooleans.runChecks();
+    charactersAndBooleans.runChecks(true);
     }
 }
